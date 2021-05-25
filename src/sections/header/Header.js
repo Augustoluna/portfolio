@@ -1,10 +1,18 @@
 import React from "react";
+import { MainDiv, MyName, Menu } from "./Styled";
 
 const Header = () => {
   return (
-    <div>
-      <h1>Header</h1>
-    </div>
+    <MainDiv>
+      <MyName>Augusto Luna</MyName>
+      <Menu>
+        <ul>
+          <li> Quem sou </li>
+          <li> Projetos </li>
+          <li> Contato </li>
+        </ul>
+      </Menu>
+    </MainDiv>
   );
 };
 
