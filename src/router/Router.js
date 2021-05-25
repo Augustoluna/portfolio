@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Introduction from "../sections/introduction/Introduction";
 import MyProjects from "../sections/myProjects/MyProjects";
 import Contacts from "../sections/contacts/Contacts";
+import MyKnowledge from "../sections/myKnowledge/MyKnowledge";
 
 const Router = () => {
   return (
@@ -16,6 +17,9 @@ const Router = () => {
         </Route>
         <Route exact path="/contacts">
           <Contacts />
+        </Route>
+        <Route exact path="/knowledge">
+          <MyKnowledge />
         </Route>
       </Switch>
     </BrowserRouter>
